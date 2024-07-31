@@ -1,0 +1,132 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Overpass;
+}
+
+body {
+    background-color: #141519;
+}
+
+.container {
+    justify-content: center;
+    position: absolute;
+    top: 19%;
+    left: 30%;
+    padding: 70px;
+    width: 500px;
+    background-color: #1f2630;
+    color: #fff;
+    border-radius: 15px;
+    transition: transform 1s ease;
+}
+
+.container:hover {
+    transform: translateY(20px);
+    box-shadow: 1px 2px 9px #fb7713;
+}
+
+.rating-stars {
+    margin-left: -12px;
+}
+
+.rating-stars > button {
+    justify-content: center;
+    color: #ffffffc4;
+    border-color: #282f39;
+    background-color: #282f39;
+    width: 50px;
+    height: 50px;
+    display: inline-flex;
+    margin-left: 11px;
+    border-radius: 50%;
+    transition: transform 2s ease;
+}
+
+.rating-stars > button:hover {
+    background-color: #fb7713;
+    border-color: #fb7713;
+    transform: rotateY(360deg);
+}
+
+.rating-stars > button > p {
+    margin-top: 15px;
+}
+
+.enquiries > h2,
+.rating-stars,
+button {
+    margin-top: 15px;
+}
+
+.enquiries > p {
+    color: #666d77;
+    width: 350px;
+    margin-top: 30px;
+    line-height: 24px;
+}
+
+.container > button {
+    padding: 13px 100px;
+    border-radius: 40px;
+    background-color: #fb7713;
+    border-color: #fb7713;
+    margin-top: 25px;
+    transition: width 0.5s ease-in-out, transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    width: 250px;
+}
+
+.container > button:hover {
+    background-color: #fff;
+    border-color: #fff;
+    width: 320px;
+    transform: translateY(2px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+}
+
+.container > button > p {
+    font-weight: bold;
+}
+
+
+/* moder styling  */
+
+.moder {
+    width: 420px;
+    background-color: #1f2630;
+    margin: 150px 0px 0px 600px;
+    color: #fff;
+    padding: 60px;
+    display: none;
+    border-radius: 20px;
+    transition: transform 1s ease;
+}
+
+.moder:hover {
+     transform: translateY(20px);
+     box-shadow: 1px 2px 9px #fb7713;
+}
+
+.selection-text > p {
+    color: #fb7713;
+
+}
+
+.thank_you-text > p {
+    width: 300px;
+    text-align-last: center;
+}
+
+.moder > .thank_you-text > h2 {
+    margin-left: 70px;
+    padding-bottom: 20px;
+    text-shadow: 2px 3px #fb7813d0;
+}
+
+.moder > img,
+.moder > .selection-text {
+    margin-left: 60px;
+    padding-bottom: 20px;
+}
